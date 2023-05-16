@@ -11,7 +11,10 @@ repositories {
 
 dependencies {
 //    implementation project(path: ':')
-
+    //aop
+    implementation 'org.springframework:spring-aop:5.3.20'
+    //aspectj
+    implementation 'org.aspectj:aspectjweaver:1.9.7'
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
