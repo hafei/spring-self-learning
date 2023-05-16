@@ -1,10 +1,10 @@
-package com.example;
+package org.example;
 
-import com.example.bean.AnnotationBean;
-import com.example.bean.JavaBean;
-import com.example.bean.XmlBean;
-import com.example.config.AnnotationConfig;
-import com.example.config.MyConfig;
+import org.example.bean.AnnotationBean;
+import org.example.bean.JavaBean;
+import org.example.bean.XmlBean;
+import org.example.config.AnnotationConfig;
+import org.example.config.MyConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

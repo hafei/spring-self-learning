@@ -1,6 +1,6 @@
-package com.example.config;
+package org.example.config;
 
-import com.example.bean.JavaBean;
+import org.example.bean.JavaBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
