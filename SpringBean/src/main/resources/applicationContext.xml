@@ -3,7 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="xmlBean" class="com.example.bean.XmlBean">
+    <bean id="baseBean" class="org.example.bean.BaseBean">
+        <property name="name" value="baseBean" />
+    </bean>
+
+    <bean id="xmlBean" class="org.example.bean.XmlBean">
         <property name="name" value="xmlBean" />
+        <property name="baseBean" ref="baseBean" />
     </bean>
 </beans>
